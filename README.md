@@ -10,7 +10,7 @@
 	- 코드 수정해가며 테스트
 5. 완성되면 GitHub push
 
-  i) hsw_n~m.html // n과 m은 수강한 강의 번호
+  		i) hsw_n~m.html // n과 m은 수강한 강의 번호
 
   
   
