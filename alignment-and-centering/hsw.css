@@ -25,24 +25,12 @@ input[type=reset],input[type=submit]{-webkit-appearance:button;cursor:pointer;}b
 .box9 { background:#2ecc71;}
 .box10 { background:#16a085;}
 
-
-/* We start writing out flexbox here. The above is just page setup */
-.container {
+.container{
     display: flex;
-    min-height: 100vh;
-    flex-wrap: wrap;
-    /*wrap이면 부모넓이보다 클경우 다음줄로*/
-    border: 10px solid gold;
-    flex-direction: row;
-    /* flex-direction: column; */
+    justify-content: center;
+    /* justify-content: space-between; // 간격포함해서 가로 다 채움 */
+    /* justify-content: left or right; // 오른쪽 또는 왼쪽으로 사이에 공백없이 배치*/ 
+    
 
-}
-
-.box{
-    /* width:300px; */
-    /* width:33.3333%; */
-    width: calc(33.3333% - 20px);
-    margin: 10px;
-    /* border: 10px solid silver; */
 
 }
