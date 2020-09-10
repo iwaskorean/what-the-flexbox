@@ -26,11 +26,20 @@ input[type=reset],input[type=submit]{-webkit-appearance:button;cursor:pointer;}b
 .box10 { background:#16a085;}
 
 .container{
-    display: flex;
-    justify-content: center;
-    /* justify-content: space-between; // 간격포함해서 가로 다 채움 */
-    /* justify-content: left or right; // 오른쪽 또는 왼쪽으로 사이에 공백없이 배치*/ 
-    
+  display:flex;
+  border:10px solid mistyrose;
+  height:100vh;
+  /* align-items:flex-start; */
+  /* align-items:center; */
+  align-items:baseline;
+  flex-direction: row;
+  /* justify-items: center; */
+}
 
+.box1{
+  font-size: 30px;
+}
 
+.box2{
+  font-size: 50px;
 }
