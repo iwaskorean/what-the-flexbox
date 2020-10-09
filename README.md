@@ -1,6 +1,6 @@
 
  
-# WHAT IS What-The-Flexbox
+# WHAT IS What-The-Flexbox ?
  The first 13 videos are aimed at understanding the fundamentals of Flexbox - we will take a deep dive into understanding rows, columns, axes, wrapping, alignment, centering and layout. The last 7 are code alongs where we will build everything from a navigation to a mobile app layout entirely with Flexbox!
  
 # HOW TO STUDY
